@@ -11,4 +11,4 @@ ARG MASTER_KEY
 
 ENV MASTER_KEY=${MASTER_KEY}
 
-CMD [ "meilisearch" ]
+# CMD [ "meilisearch" ]
