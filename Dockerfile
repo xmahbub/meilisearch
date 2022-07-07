@@ -1,8 +1,7 @@
 FROM ubuntu:22.04
 
 RUN apt update
-RUN apt install curl -y
-RUN curl -L https://install.meilisearch.com | sh
+RUN apt install meilisearch-http
 
 RUN mv ./meilisearch /usr/local/bin/
 RUN chmod 777 /usr/local/bin/
