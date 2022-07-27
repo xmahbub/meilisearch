@@ -12,7 +12,7 @@
 # ENV MASTER_KEY=${MASTER_KEY}
 
 # CMD [ "meilisearch" ]
-ADD file ... in /
+ADD file:80b46be2fe86b402518b00758ff5d8556d92113dc267a002b6c72a5f9c6742a3 in /
 
 CMD ["/bin/sh"]
 
