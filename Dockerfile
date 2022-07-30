@@ -1,4 +1,4 @@
-ARG MEILI_API_KEY
+ARG MEILI_MASTER_KEY
 
 FROM getmeili/meilisearch:v0.28.0
 
