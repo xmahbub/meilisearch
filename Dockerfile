@@ -1,14 +1,7 @@
-FROM ubuntu:22.04
+FROM getmeili/meilisearch:v0.28.0
 
-RUN apt update
-RUN apt install curl -y
-RUN curl -L https://install.meilisearch.com | sh
+ARG MEILI_API_KEY
 
-RUN mv ./meilisearch /usr/local/bin/
-RUN chmod 777 /usr/local/bin/
+ENV MEILI_API_KEY=${MEILI_API_KEY}
 
-ARG MASTER_KEY
-
-ENV MASTER_KEY=${MASTER_KEY}
-
-CMD [ "meilisearch" ]
+EXPOSE 7700
