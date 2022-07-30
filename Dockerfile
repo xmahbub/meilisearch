@@ -1,6 +1,6 @@
-FROM getmeili/meilisearch:v0.28.0
-
 ARG MEILI_API_KEY
+
+FROM getmeili/meilisearch:v0.28.0
 
 ENV MEILI_API_KEY=$MEILI_API_KEY
 
