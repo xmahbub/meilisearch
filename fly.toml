@@ -1,6 +1,6 @@
-# fly.toml file generated for precourse on 2022-08-29T10:45:02+02:00
+# fly.toml file generated for little-dream-646 on 2022-08-29T11:00:59+02:00
 
-app = "precourse"
+app = "little-dream-646"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

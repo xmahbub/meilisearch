@@ -17,8 +17,8 @@ Install [*flyctl*](https://fly.io/docs/getting-started/installing-flyctl/)
 
 1. `flyctl auth login`
 
-1. `flyctl config save`
+1. `flyctl launch`
 
-1. `flyctl deploy`
+1. `flyctl secrets set MEILI_MASTER_KEY={YOUR RANDOM KEY}`
 
 1. `flyctl open`
